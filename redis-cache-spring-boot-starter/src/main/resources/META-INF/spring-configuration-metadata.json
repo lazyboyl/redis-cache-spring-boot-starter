@@ -1,0 +1,16 @@
+{
+  "properties": [
+    {
+      "name": "redis.cache.expression",
+      "type": "java.lang.String",
+      "description": "缓存拦截的表达式",
+      "defaultValue": ""
+    },
+    {
+      "name": "redis.cache.enable",
+      "type": "java.lang.Boolean",
+      "description": "缓存是否开启的标志，true为开启，false为未开启",
+      "defaultValue": false
+    }
+  ]
+}
