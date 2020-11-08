@@ -12,5 +12,5 @@ spring:
       timeout: 2000
 redis:
   cache:
-    enable: true
+    enable: false
     expression: public * com.lazyboyl.cache.example.service.*.*(..)
